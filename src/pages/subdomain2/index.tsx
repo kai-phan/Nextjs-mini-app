@@ -8,14 +8,11 @@ import { useRouter } from 'next/router';
 
 import { Button } from 'antd';
 
-import { Environment } from 'src/utils/environment';
-
 export default function Home() {
   const { t } = useTranslation();
   const router = useRouter();
 
   const changeTo = router.locale === 'en' ? 'vi' : 'en';
-  console.log('-------CON CAT INDEX --------');
 
   return (
     <main
