@@ -1,3 +1,6 @@
 {
-  "test": "Đây là tiếng Việt"
+  "test": "Đây là tiếng Việt",
+  "tin": {
+    "be": "Dây là bede"
+  }
 }
